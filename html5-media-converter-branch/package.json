@@ -1,0 +1,55 @@
+{
+  "name": "html5-media-converter",
+  "description": "Converts videos and images into web-usable formats",
+  "version": "0.0.2",
+  "main": "src/Html5MediaConverter.js",
+  "homepage": "http://github.com/nknapp/html5-media-converter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nknapp/html5-media-converter.git"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.0.0-rc3",
+    "process-streams": "^0.3.1",
+    "q": "^1.1.2",
+    "q-io": "^1.11.6",
+    "underscore": "^1.7.0"
+  },
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit testsrc/"
+  },
+  "devDependencies": {
+    "long-stack-traces": "^0.1.2",
+    "nodeunit": "^0.9.0"
+  },
+  "author": {
+    "name": "Nils Knappmeier",
+    "email": "npm@knappi.org",
+    "url": "http://www.knappi.org"
+  },
+  "gitHead": "7961e00d91d78ac688b48c8cd4d7ec421800ec85",
+  "bugs": {
+    "url": "https://github.com/nknapp/html5-media-converter/issues"
+  },
+  "_id": "html5-media-converter@0.0.2",
+  "_shasum": "4b95e434dd7cf199ddd7c49290a00a390126a53e",
+  "_from": "html5-media-converter@0.0.2",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "knappi",
+    "email": "npm@knappi.org"
+  },
+  "maintainers": [
+    {
+      "name": "knappi",
+      "email": "npm@knappi.org"
+    }
+  ],
+  "dist": {
+    "shasum": "4b95e434dd7cf199ddd7c49290a00a390126a53e",
+    "tarball": "http://registry.npmjs.org/html5-media-converter/-/html5-media-converter-0.0.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/html5-media-converter/-/html5-media-converter-0.0.2.tgz",
+  "readme": "ERROR: No README data found!"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "make-web-videos",
+  "version": "2.0.2",
+  "description": "MakeWebVideos is a command-line utility for automatically generating web-ready videos from a set of mp4, ogg, or webm videos. By inputting a file glob and an out directory, makeWebVideos will export mp4, ogv, and webm copies of the videos.",
+  "main": "makeWebVideos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Kirk",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.6.0",
+    "fs-extra": "^0.26.7",
+    "glob": "^4.4.1",
+    "globby": "^1.2.0",
+    "html5-media-converter": "0.0.2"
+  },
+  "bin": {
+    "makeWebVideos": "makeWebVideos.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
+}
